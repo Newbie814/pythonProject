@@ -29,3 +29,34 @@ Boolean: bool
 Binary: bytes, bytearray, memoryview
 
 '''
+
+single = 'python'
+print(single)
+
+double = "python1"
+print(double)
+
+triple = '''Used to wrap multiline strings like lorem
+and I don't know what to say to fill this up. But, I'm
+trying. Not very well, as you can see.'''
+print(triple)
+
+num = '123456780'
+print(type(num))
+
+numNum = 12345678
+print(type(numNum))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
