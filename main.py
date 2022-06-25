@@ -106,10 +106,28 @@ print(var16.swapcase()) # I LIKE pYTHON BECAUSE IT IS POWERFUL converts all uppe
 var17 = 'I like Python because it is powerful'
 print(var17.title()) # I Like Python Because It Is Powerful converts first letter of each word to uppercase
 
+#Python numbers
+
+a = 1
+b = 2.1
+c = 2+3j
+print(type(a))  #int
+print(type(b))  #float
+print(type(c))  #complex number
+
+#casting
+
+print(int(b))  #2 changes to integer
+print(float(a))  #1.0 changes to floating
+print(complex(a))  # 1+0j changes to complex number
+
+import random     #standard package from python library
 
 
+print(random.randrange(1, 1000))   #generates random number within given range
 
 
+# decimal to binary conversion
 
 
 
