@@ -130,6 +130,60 @@ print(random.randrange(1, 1000))   #generates random number within given range
 # decimal to binary conversion
 
 
+#Operators
+
+
+# Arithmetic
+num = 1 + 1
+num2 = 2-1
+num3 = 2*3
+num4 = 10/2   #sigle slash division. returns a floating point number
+num5 = 10//2   #double slash division. returns an integer
+num6 = 10%3   # modulus - returns remainder
+num7 = 10** 3 # exponentiation - in this case, 10 to the power of 3
+
+print(num)
+print(num2)
+print(num3)
+print(num4)
+print(num5)
+print(num6)
+print(num7)
+
+# Assignment Operator  basically same as JavaScript
+x = 10 
+x += 4 # same as x = x + 4 (augmented operator)
+
+
+#Logical Operator     --- and, or, and not 
+
+
+
+# Comparison Operators   --   ==, !=, >, <, >=, <=
+
+# Identity Operator --  is   &&  is not
+
+x = 10
+y = 10
+z = x 
+print( x is y )  #true
+print( x is z )  #true
+print( x == z )  #true
+print( x == y )  #true
+
+print( x is not y )  #false
+print( x is not z )  #false
+print( x != z )  #false
+print( x != y )  #false
+
+# Membership Operators     --   in  && not in 
+
+x = ['Apple', 'Orange']
+print('Apple' in x)  #true  checks to see if it contains
+print('mango' in x)  #false checks to see if it contains
+
+# Left shift operator
+
 
 
 
