@@ -182,9 +182,20 @@ x = ['Apple', 'Orange']
 print('Apple' in x)  #true  checks to see if it contains
 print('mango' in x)  #false checks to see if it contains
 
-# Left shift operator
+# Bitwise Operators
+
+# Left shift operator     --   <<     adds a bit to the left (zero on right)
+ # 3 << 2
+
+ # 11 is binary conversion from 3, so 11 << 2 is same as above
+
+ #left shift would be 1100 (2 zeroes added, specified by number on right side of operator)
+
+  #right shift operator     --   >>     adds a bit to the right (zero on left)
+  # 3 >> 2
 
 
+# bit
 
 
 
