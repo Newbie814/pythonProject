@@ -197,6 +197,43 @@ print('mango' in x)  #false checks to see if it contains
 
 # bit
 
+# Data Types
+
+# Lists
+
+list = ['Python', 'Java', 'C++', 'C#', 'JavaScript']
+
+print(list)
+
+list[0] = 'Ruby'
+print(list)
+
+var0 = list[0]
+var1 = list[1]
+var2 = list[2]
+var3 = list[3]
+var4 = list[4]
+
+print(var0)
+
+var00, var11, var22, var33, var44 = list
+
+print(var22)
+
+list2 = [1,2,3,4,5,6,7,8,9,10]  # to access just the first and last:
+
+var000, *rest, varLast = list2
+print(varLast) # 10
+print(*rest) # [2, 3, 4, 5, 6, 7, 8, 9]
+
+print(list2[0:5]) # [1, 2, 3, 4, 5]    # access a range
+
+print(len(list2)) # 10  
+
+for i in list2:    # i us just a chosen vanriable name to represent each element in the list
+    print(i) # prints each element in list
+
+
 
 
 
