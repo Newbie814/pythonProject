@@ -234,9 +234,65 @@ for i in list2:    # i us just a chosen vanriable name to represent each element
     print(i) # prints each element in list
 
 
+# Append
 
+list3 = ['Woodard', 'Scheff', 'Sandra', 'Matt']
+list3.append('Liam')
+print(list3)  #['Woodard', 'Scheff', 'Sandra', 'Matt', 'Liam']
 
+# equivalent to JavaScript's push() method
 
+# Insert                2 arguments: index and value(content)
+list3.insert(3, 'Connor')
+print(list3)  #['Woodard', 'Scheff', 'Connor', 'Sandra', 'Connor', 'Matt', 'Liam']
 
+# Copy
 
+list4 = ['Woodard', 'Scheff', 'Sandra', 'Matt', 'Matt']
+
+list_copy = list4.copy()
+print(list_copy)  #['Woodard', 'Scheff', 'Sandra', 'Matt']
+
+# Count
+
+count = list4.count('Matt')
+count2 = list4.count('Sandra')
+print(count)  #   2
+print(count2)  #   1
+
+# Extend
+list5 = [1,2,3,4,5]
+
+list4.extend(list5)
+print(list4)
+
+# Index -- returns the index of the first occurrence of the value
+
+print(list4.index('Matt'))  # 3
+
+# Pop -- removes the element at the specified position in the list
+
+list6 = ['Woodard', 'Scheff', 'Sandra', 'Matt']
+list6.pop(2)
+print(list6)  #['Woodard', 'Scheff', 'Matt']
+
+# Remove -- removes the first occurrence of the value
+
+list7 = ['Woodard', 'Scheff', 'Matt', 'Sandra', 'Matt']
+
+list7.remove('Matt')  
+print(list7)  #['Woodard', 'Scheff', 'Sandra', 'Matt']
+
+# Reverse
+list7.reverse()
+print(list7)  #['Matt', 'Sandra', 'Scheff', 'Woodard']
+
+# Sort
+
+list8 = [9,8,7,6,5,4,3,2]
+list9 = ['z', 'y', 'd', 'h', 'a', 'o', 'f', 'p' ]
+list8.sort()
+list9.sort()
+print(list8) #[2, 3, 4, 5, 6, 7, 8, 9]
+print(list9) # ['a', 'd', 'f', 'h', 'o', 'p', 'y', 'z']
 
